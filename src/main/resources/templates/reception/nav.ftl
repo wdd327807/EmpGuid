@@ -1,15 +1,18 @@
 <nav class="navbar navbar-default" role="navigation" id="banner">
 	<div class="navbar-header">
-		 <span class="navbar-brand" style="font-size:25px">网站导航</span>
+		 <span class="navbar-brand" style="font-size:18px">网站导航</span>
 	</div>
 	
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		<ul class="nav navbar-nav" style="font-size:20px">
+		<ul class="nav navbar-nav" style="font-size:16px">
 			<li class="first_page">
 				 <a href="/EmpGuid/recruit/index">平台首页</a>
 			</li>
 			<li class="first_page">
 				 <a href="/EmpGuid/loginInterceptor/showGuidInfo">就业指导</a>
+			</li>
+			<li class="first_page">
+				 <a href="/EmpGuid/loginInterceptor/showGuidInfo">职业生涯指导</a>
 			</li>
 			<li class="dropdown">
 				 <a class="dropdown-toggle" data-toggle="dropdown">学习平台<strong class="caret"></strong></a>
@@ -33,8 +36,8 @@
 		<ul class="nav navbar-nav navbar-right">
 			<#if username??>
 				<li class="dropdown">
-				 	<a href="#" class="dropdown-toggle" data-toggle="dropdown">用户：${username}<strong class="caret"></strong></a>
-					<ul class="dropdown-menu" style="min-width:100%;">
+				 	<a class="dropdown-toggle" data-toggle="dropdown" style="font-size:14px;">用户：${username}<strong class="caret"></strong></a>
+					<ul class="dropdown-menu" style="min-width:100%;font-size:14px;">
 						<li><a href="/EmpGuid/recruit/showInfo?username=${username}" style="text-align:center;">个人信息管理</a></li>
 						<li class="divider"></li>
 						<li><a href="/EmpGuid/logout" style="text-align:center;">退出登录</a></li>

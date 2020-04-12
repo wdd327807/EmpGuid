@@ -1,10 +1,10 @@
 <nav class="navbar navbar-default" role="navigation" id="banner">
 	<div class="navbar-header">
-		 <span class="navbar-brand" style="font-size:25px">网站导航</span>
+		 <span class="navbar-brand" style="font-size:18px">网站导航</span>
 	</div>
 	
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		<ul class="nav navbar-nav" style="font-size:20px">
+		<ul class="nav navbar-nav" style="font-size:16px">
 			<li class="first_page">
 				 <a href="/EmpGuid/recruit/index">平台首页</a>
 			</li>

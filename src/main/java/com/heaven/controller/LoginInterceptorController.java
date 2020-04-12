@@ -50,9 +50,11 @@ public class LoginInterceptorController {
 	}
 	@GetMapping("/videos")
 	public ModelAndView videos(Map<String,Object> map){
-		List<TecTypeVO> tecTypeVORandom2List = tecTypeService.selectRandom2();
+		
+		List<TecTypeVO> tecTypeVOList = tecTypeService.selectAll();
 		List<TecTypeVO> tecTypeVORandom3List = tecTypeService.selectRandom3();
-		map.put("tecTypeVORandom2List", tecTypeVORandom2List);
+		
+		map.put("tecTypeVOList", tecTypeVOList);
 		map.put("tecTypeVORandom3List", tecTypeVORandom3List);
 		return new ModelAndView("reception/videos_index",map);
 	}

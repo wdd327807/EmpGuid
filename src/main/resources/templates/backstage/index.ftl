@@ -56,12 +56,12 @@
 <body>
     <div class="easyui-layout" style="width:100%;height:100%;">
         <div data-options="region:'north'" style="height:66px;text-align:center;border:2px solid #E7F0FF;background-color:#FAFAFA" >
-			<span style="font-size:30px;line-height:60px;">大&nbsp;&nbsp; 学&nbsp;&nbsp; 生 &nbsp;&nbsp; 就 &nbsp;&nbsp; 业 &nbsp;&nbsp; 指&nbsp; &nbsp; 导 &nbsp; &nbsp; 及 &nbsp; &nbsp; 教 &nbsp; &nbsp; 育&nbsp; &nbsp;  平 &nbsp; &nbsp; 台</span>
+			<span style="font-size:30px;line-height:60px;">大&nbsp;&nbsp; 学&nbsp;&nbsp; 生 &nbsp;&nbsp; 就 &nbsp;&nbsp; 业 &nbsp;&nbsp; 指&nbsp; &nbsp; 导 &nbsp; &nbsp;平 &nbsp; &nbsp; 台</span>
 			<div style="line-height:30px;width:200px;height:30px;position:absolute;top:20px;right:15px;text-align:center;">
 				管理员：${guser}
 			</div>
 		</div>
-        <div data-options="region:'south',split:false" style="height:50px;background-color:rgb(51,51,51);text-align:center;color:#fff;line-height:40px;">@郑州轻工业大学 软件学院 软件工程（软件开发15-01）</div>
+        <div data-options="region:'south',split:false" style="height:50px;background-color:rgb(51,51,51);text-align:center;color:#fff;line-height:40px;">@信阳农林学院 信息工程学院 网络工程（网络软件开发）2016</div>
         <div data-options="region:'west',split:false,headerCls:'guid_title'" title="导航菜单" style="width:175px;">
             <div class="easyui-accordion" data-options="fit:true,border:false">
                 <div title="招聘信息" data-options="selected:true" style="padding:0;">

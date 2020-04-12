@@ -21,7 +21,9 @@ public class LonginInterceptor {
 			+ "&& !execution(* com.heaven.controller.LoginController.*(..))"
 			+ "&& !execution(* com.heaven.controller.IndexController.*(..))"
 			+ "&& !execution(* com.heaven.controller.RecruitController.*(..))"
-			+ "&& !execution(* com.heaven.controller.Manager*.*(..))")
+			+ "&& !execution(* com.heaven.controller.Manager*.*(..))"
+			+ "&& !execution(* com.heaven.controller.RegistController*.*(..))")
+			
 	public void verify() {}
 	
 	@Before("verify()")

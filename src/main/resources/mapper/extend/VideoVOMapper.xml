@@ -26,10 +26,10 @@
 		select * from video where id = #{id}
 	</select>
 	<select id="selectRandom2" parameterType="int" resultMap="videoVOMap">
-		select * from video where video_type_id = #{videoTypeId} order by rand() limit 2
+		select * from video where video_type_id = #{videoTypeId}
 	</select>
 	<select id="selectRandom3" parameterType="int" resultMap="videoVOMap">
-		select * from video where video_type_id = #{videoTypeId} order by rand() limit 2
+		select * from video where video_type_id = #{videoTypeId}
 	</select>
 	<insert id="insert" parameterType="com.heaven.bean.Video" useGeneratedKeys="true"
 		keyProperty="id">

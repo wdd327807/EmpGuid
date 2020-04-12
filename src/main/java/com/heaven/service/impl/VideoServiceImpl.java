@@ -41,5 +41,4 @@ public class VideoServiceImpl implements IVideoService {
 	public List<VideoVO> searchByKeyWord(String keyWord) {
 		return videoVOMapper.searchByKeyWord(keyWord);
 	}
-
 }

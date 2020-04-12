@@ -27,21 +27,21 @@
 			<div class="row clearfix pad" style="border:1px solid #dfdfdf;">
 				<div class="col-md-8 column" style="padding:0px">
 					<div class="tabbable" id="tabs-447149">
-						<ul class="nav nav-tabs"  style="font-size:26px;">
+						<ul class="nav nav-tabs"  style="font-size:16px;">
 							<li class="active">
-								 <a href="#panel-913032" data-toggle="tab">招聘公告</a>
+								 <a href="#panel-913032" data-toggle="tab" style="color:#000;">招聘公告</a>
 							</li>
 							<li>
-								 <a href="#panel-799133" data-toggle="tab">实习岗位</a>
+								 <a href="#panel-799133" data-toggle="tab" style="color:#000;">实习岗位</a>
 							</li>
 							<li>
-								 <a href="#panel-799134" data-toggle="tab">企业招聘</a>
+								 <a href="#panel-799134" data-toggle="tab" style="color:#000;">企业招聘</a>
 							</li>
 							<li>
-								 <a href="#panel-799135" data-toggle="tab">校园招聘</a>
+								 <a href="#panel-799135" data-toggle="tab" style="color:#000;">校园招聘</a>
 							</li>
 							<li>
-								 <a href="#panel-799136" data-toggle="tab">招聘简章</a>
+								 <a href="#panel-799136" data-toggle="tab" style="color:#000;">招聘简章</a>
 							</li>
 						</ul>
 						<div class="tab-content">
@@ -62,7 +62,7 @@
 										</table>
 									</div>
 									<div class="panel-footer" style="height:55px;">
-										<a href="/EmpGuid/recruit/more?recruidId=1&recruitName=招聘公告" class="more">More</a>
+										<a href="/EmpGuid/recruit/more?recruidId=1&recruitName=招聘公告" class="more" style="font-size:14px;">More</a>
 									</div>
 								</div>
 							</div>
@@ -155,7 +155,7 @@
 				</div>
 				<div class="col-md-4 column" style="padding:0px">
 					<div class="list-group" style="width:391px;">
-						<a href="#" class="list-group-item active" style="font-size:24px"><img style="margin-top:-4px" width="20px" height="20px" alt="140x140" src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1553582202&di=66e657704a4877cd1ab38b6613c01893&src=http://pic.51yuansu.com/pic3/cover/02/80/87/5a4df52111c0c_610.jpg" />&nbsp日历</a>
+						<a class="list-group-item active" style="font-size:16px"><img style="margin-top:-4px" width="16px" height="16px" alt="120x120" src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1553582202&di=66e657704a4877cd1ab38b6613c01893&src=http://pic.51yuansu.com/pic3/cover/02/80/87/5a4df52111c0c_610.jpg" />&nbsp日历</a>
 						<div class="list-group-item" style="padding:0px">
 							<div id="cc" class="easyui-calendar" style="width:390px;height:413px;"></div> 
 						</div>
@@ -166,7 +166,7 @@
 		<div class="col-md-8 column" style="margin-top:20px;border:1px solid #dfdfdf;height:485px;padding:0px">
 			<nav class="navbar navbar-default" role="navigation" >
 				<div class="navbar-header">
-					 <span class="navbar-brand" style="font-size:30px">校园宣讲会</span>
+					 <span class="navbar-brand" style="font-size:16px">校园宣讲会</span>
 				</div>
 			</nav>
 			<div class="panel panel-default">
@@ -183,7 +183,7 @@
 					</table>
 				</div>
 				<div class="panel-footer" style="height:55px;">
-					<a href="/EmpGuid/recruit/generalMore" class="general_more">More</a>
+					<a href="/EmpGuid/recruit/generalMore" class="general_more" style="font-size:14px;">More</a>
 				</div>
 			</div>
 		</div>
